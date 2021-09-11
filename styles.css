@@ -1,0 +1,241 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: burlywood;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Titan One', 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+a {
+  color: black;
+}
+
+p {
+  color: whitesmoke;
+}
+
+/*    Navbar    */
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color:rgb(230, 250, 250);
+}
+
+.header-logo {
+  height: 36px;
+  margin-left: 24px;
+  border: 4px solid burlywood;
+  border-radius: 50%;
+  box-shadow: 1px 1px;
+}
+
+.header-logo:hover {
+  border: 4px solid rosybrown;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 12px;
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  padding: 16px;
+}
+
+.nav-links a:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+
+
+/*    Title secion    */
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      60deg,
+      rgba(57, 60, 90, 0.85),
+      rgba(180, 180, 120, 0.5)
+    ),
+    url(https://wallpaperforu.com/wp-content/uploads/2020/06/paste-wallpaper-2006171415338-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.media-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 128px 72px 72px;
+  gap: 24px;
+  padding: 32px;
+  border: 3px solid skyblue;
+  border-radius: 200px;
+  box-shadow: 2px 2px 20px 2px;
+  background: rgba(57, 60, 90, 0.7);
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 32px;
+}
+
+.textbox h1 {
+  color: burlywood;
+  text-shadow: 2px 2px black;
+}
+
+.main-img {
+  object-fit: cover;
+  flex: 1 1 auto;
+  max-width: 300px;
+  border: 15px solid burlywood;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px;
+}
+
+.meow-button {
+  font-weight: 900;
+  padding: 4px 24px;
+  border-radius: 4px;
+  background-color: rgb(230, 250, 250);
+}
+
+.meow-button:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  box-shadow: 1px 1px burlywood;
+}
+
+
+/*  Team information section  */
+.team-title {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding: 96px 0 48px;
+}
+
+.worker-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 48px;
+  padding-bottom: 128px;
+}
+
+.worker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.worker-icon {
+  width: 200px;
+  height: 200px;
+  border: 12px solid rgb(230, 250, 250);
+  border-radius: 32px;
+  box-shadow: 2px 2px 3px black;
+  object-fit: cover;
+}
+
+.worker-text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+
+/*    Testimonial section     */
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  padding: 128px 192px 96px;
+  background-color: lightblue;
+  font-size: 24px;
+  line-height: 150%;
+  font-style: italic;
+}
+
+.quote-section p {
+  text-align: end;
+  font-style: normal;
+  font-weight: 600;
+  color: sienna;
+}
+
+
+/*    Emain signup    */
+.signup-section {
+  display: flex;
+  align-items: center;
+  background-color: sienna;
+  border: 12px solid lightblue;
+  border-radius: 24px;
+  box-shadow: 2px 2px 3px black;
+  margin: 128px;
+  padding: 32px 48px;
+}
+
+.email-text h2 {
+  color: lightblue;
+  text-shadow: 1px 1px black;
+  font-family: 'Titan One', Arial, Helvetica, sans-serif;
+  padding-bottom: 8px;
+}
+
+.email-btn {
+  flex-shrink: 0;
+  height: 36px;
+  width: 128px;
+  padding: 4px 24px;
+  margin: 24px;
+  background-color:rgb(230, 250, 250);
+  border-radius: 4px;
+  border: 3px solid lightblue;
+  box-shadow: 2px 2px 3px black;
+  font-weight: 400;
+}
+
+.email-btn:hover {
+  font-weight: 800;
+  background-color: skyblue;
+  border-color: steelblue;
+  cursor: pointer;
+}
+
+/*    Footer    */
+footer p {
+  padding: 24px;
+  text-align: center;
+  color: black;
+  background-color: rgb(230, 250, 250);
+}
