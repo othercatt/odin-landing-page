@@ -210,8 +210,13 @@ p {
   border: 12px solid lightblue;
   border-radius: 24px;
   box-shadow: 2px 2px 3px black;
+<<<<<<< HEAD
   margin: 128px 48px;
+=======
+  margin: 128px auto;
+>>>>>>> 5fc8948a9775acd336be3c4cba8c787bd70d9d4f
   padding: 32px 48px;
+  max-width: 1100px;
 }
 
 .email-text h2 {
@@ -221,12 +226,16 @@ p {
   padding-bottom: 8px;
 }
 
+.email-text p {
+  padding-right: 24px;
+}
+
 .email-btn {
   flex-shrink: 0;
   height: 36px;
   width: 128px;
   padding: 4px 24px;
-  margin: 24px;
+  margin: 24px auto;
   background-color:rgb(230, 250, 250);
   border-radius: 4px;
   border: 3px solid lightblue;
