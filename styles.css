@@ -126,6 +126,7 @@ p {
   padding: 4px 24px;
   border-radius: 4px;
   background-color: rgb(230, 250, 250);
+  align-self: center;
 }
 
 .meow-button:hover {
@@ -145,14 +146,15 @@ p {
   text-shadow: 2px 2px black;
   text-align: center;
   padding: 48px;
+  padding-top: 104px;
 }
 
 .worker-container {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  gap: 72px;
-  padding-bottom: 96px;
+
+  padding: 0px 24px 96px 24px;
 }
 
 .worker {
@@ -160,6 +162,9 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 8px;
+  padding: 24px;  
+  color: white;
+  text-shadow: 2px 2px 1px black;
 }
 
 .worker-icon {
@@ -176,6 +181,8 @@ p {
   text-align: center;
   flex-wrap: wrap;
   max-width: 200px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 
@@ -183,7 +190,7 @@ p {
 .quote-section {
   display: flex;
   flex-direction: column;
-  padding: 128px 192px 96px;
+  padding: 128px 128px 96px;
   background-color: lightblue;
   border-bottom: solid black 1px;
   font-size: 24px;
@@ -218,15 +225,18 @@ p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  gap: 72px;
   padding-bottom: 96px;
 }
 
 .portfolio-tile {
+  color: white;
+  text-shadow: 2px 2px black;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
+  padding: 24px;
+  width: 300px;
 }
 
 .portfolio-icon {
@@ -243,6 +253,8 @@ p {
   text-align: center;
   flex-wrap: wrap;
   max-width: 200px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /* Profile section */
