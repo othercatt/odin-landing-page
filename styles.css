@@ -24,6 +24,16 @@ p {
   color: whitesmoke;
 }
 
+.title {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding: 48px;
+  padding-top: 96px;
+  border-top: 1px black solid;
+}
+
+
 /*    Navbar    */
 .navbar {
   display: flex;
@@ -144,18 +154,6 @@ p {
 
 
 /*  Team information section  */
-.team-info {
-  border-bottom: solid black 1px;
-}
-
-.title {
-  color: white;
-  text-shadow: 2px 2px black;
-  text-align: center;
-  padding: 48px;
-  padding-top: 104px;
-}
-
 .worker-container {
   display: flex;
   justify-content: center;
@@ -168,6 +166,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 300px;
   gap: 8px;
   padding: 24px;  
   color: white;
@@ -214,7 +213,6 @@ p {
 
 
 /* Project portfolio section */
-/* Add links to other projects here */
 .portfolio-section {
   justify-content: center;
   border-bottom: solid black 1px;
@@ -223,7 +221,7 @@ p {
       rgba(57, 60, 90, 0.85),
       rgba(180, 180, 120, 0.5)
     ),
-    url(https://wallpaperforu.com/wp-content/uploads/2020/06/paste-wallpaper-2006171415338-scaled.jpg);
+    url(/images/city-background.avif);
   background-position: center;
   background-size: cover;
 }
@@ -249,7 +247,7 @@ p {
 .portfolio-icon {
   width: 200px;
   height: 200px;
-  border: 12px solid burlywood;
+  border: 12px solid lightblue;
   border-radius: 32px;
   box-shadow: 2px 2px 3px black;
   object-fit: cover;
@@ -271,16 +269,66 @@ p {
   font-weight: bold;
 }
 
-/* Profile section */
-/* Add links to outside sites and contact info here */
+
+/* Contact info section */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-image: linear-gradient(
+      60deg,
+      rgba(57, 60, 90, 0.85),
+      rgba(180, 180, 120, 0.5)
+    ),
+    url(images/building-background.webp);
+  background-position: center;
+  background-size: cover;
+
+  font-weight: bold;
+  text-shadow: black 1px 1px;
+}
+
+.contact-info-container {
+  margin-bottom: 36px;
+}
+
+.contact-info-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.contact-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.contact-section a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  text-shadow: black 2px 2px;
+}
+
+.contact-section a:hover {
+  color: lightskyblue;
+  text-decoration: none;
+  font-weight: bolder;
+  text-shadow: black 2px 2px;
+}
 
 
-
-/*    Emain signup    */
+/*    Email list signup    */
 .signup-section {
   display: flex;
   justify-content: center;
   border-bottom: solid black 1px;
+  border-top: solid black 2px;
 }
 
 .signup-box {
