@@ -106,6 +106,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1000px;
   margin: 128px 72px 72px;
   gap: 24px;
   padding: 32px;
@@ -230,7 +231,7 @@ p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  padding-bottom: 96px;
+  padding: 0px 24px 96px 24px;
 }
 
 .portfolio-tile {
